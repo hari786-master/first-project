@@ -626,6 +626,7 @@ summary::marker {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content:center;
     color: #575757;
 }
 
@@ -636,10 +637,9 @@ summary::marker {
 }
 
 .main-11 .content-11 {
-    padding: 20px;
-    position: relative;
-    left: 110px;
+      padding: 20px;
     margin-top: 450px;
+    width: 100%;
 }
 
 .para-11 {
