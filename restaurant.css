@@ -468,6 +468,9 @@ li {
 
 @media screen and (max-width:700px) {
 
+
+    .chef-hed {display:none;
+              }
     .chef {
         display: none;
         padding-left: 30;
