@@ -607,39 +607,37 @@ summary::marker {
     summary {
         margin-left: 30;
         width: 300;
-    }
-    }
+            }
+    
 
     .detil p {
         margin-left: 20;
-    }
+             }
 
     .h {
         margin-top: 10;
-    }
+     }
 }
 
 /*question section ends*/
 /*app section starts*/
 
 .main-11 {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
     width: 100%;
-    justify-content:center;
     color: #575757;
 }
 
 .img-11 {
+    width: 100%;
     margin-top: 140px;
     padding: 30px;
-
 }
 
 .main-11 .content-11 {
-      padding: 20px;
-    margin-top: 450px;
+    padding: 20px;
     width: 100%;
+    margin-top: 450px;
 }
 
 .para-11 {
