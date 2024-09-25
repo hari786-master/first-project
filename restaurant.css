@@ -280,7 +280,7 @@ a {
         text-align: center;
         display: block;
         margin-top: 0;
-                padding: 30;
+                padding: 8;
     }
 
     .menu h1 {
@@ -305,6 +305,8 @@ a {
     }
 
     .img {
+        position: relative;
+        top: 130;
         margin-top: 0;
     }
 
@@ -467,52 +469,13 @@ li {
 @media screen and (max-width:700px) {
 
     .chef {
-        display: block;
+        display: none;
         padding-left: 30;
     }
 
     .chef-box p {
-        display: flex;
-        font-size: 20;
-        margin-top: 170;
-        text-align: start;
+        display: none;
     }
-
-    .media-1 {
-        height: 300;
-        width: 300;
-    }
-
-    .media-2,
-    {
-    height: 200;
-    width: 300;
-}
-
-.media-3 {
-    height: 250;
-    width: 250;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 100;
-}
-
-.rel {
-    display: flex;
-    flex-direction:column;
-}
-
-.chef-box {
-    display: flex;
-    flex-direction:column;
-    margin-left:50px;
-    width: 800;
-
-}
 }
 
 /*chef section ends*/
@@ -633,7 +596,7 @@ summary::marker {
 
 @media screen and (max-width:786px) {
     summary {
-                margin-left: 20;
+        margin-left: 30;
         width: 300;
     }
     }
