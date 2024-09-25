@@ -6,7 +6,7 @@
     padding: 0;
     scroll-behavior: smooth;
     font-family: "Josefin Sans", sans-serif;
-}
+} 
 
 img {
     cursor: pointer;
@@ -99,7 +99,7 @@ a {
     display: flex;
     height: 50px;
     justify-content: space-around;
-
+   
 }
 
 .nav-item {
@@ -108,7 +108,6 @@ a {
 }
 
 .nav-link {
-    font-size: 18;
     position: relative;
     top: 15px;
     color: white;
@@ -130,15 +129,15 @@ a {
 
 
 
-@media screen and (max-width : 400px) {
-
+@media screen and (max-width : 786px) {
+    
 
     .navbar {
         background-color: #000;
     }
 
     .nav-link {
-        padding: 0;
+        padding:0;
     }
 
     .page .main h2 {
@@ -276,12 +275,12 @@ a {
     background-color: #f05424;
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 786px) {
     .container {
         text-align: center;
         display: block;
         margin-top: 0;
-        padding: 20;
+                padding: 40;
     }
 
     .menu h1 {
@@ -298,8 +297,8 @@ a {
     }
 
     .main {
-        justify-content: center;
         width: 100%;
+        height: 1000;
         margin-top: 0;
         overflow-y: hidden;
     }
@@ -323,12 +322,8 @@ a {
     }
 
     .content h2 {
-        font-size: 28px;
+        font-size: 32px;
         text-align: center;
-    }
-
-    .content h1 {
-        font-size: 40;
     }
 
     .content {
@@ -337,14 +332,6 @@ a {
 
     .explore-box {
         margin-left: 80;
-    }
-
-    .box {
-        width: 310;
-    }
-
-    .color {
-        width: 330;
     }
 }
 
@@ -412,10 +399,10 @@ li {
     padding: 8;
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 786px) {
 
     .heading li {
-        margin: 3.5px;
+        margin: 5px;
     }
 
     .boxes img {
@@ -424,8 +411,9 @@ li {
     }
 
     .boxes {
-        padding: 30px;
+               padding: 30;
         width: 300px;
+        margin-left: 20;
     }
 
     .boxes span {
@@ -460,7 +448,6 @@ li {
 }
 
 .chef {
-
     overflow-y: hidden;
     padding: 30px;
     display: flex;
@@ -476,17 +463,55 @@ li {
 
 }
 
-@media screen and (max-width:400px) {
-
-    .chef-hed {
-        display: none;
-    }
+@media screen and (max-width:876px) {
 
     .chef {
-        display: none;
+        display: block;
+        padding-left: 30;
     }
 
+    .chef-box p {
+        display: flex;
+        font-size: 20;
+        margin-top: 170;
+        text-align: start;
+    }
 
+    .media-1 {
+        height: 300;
+        width: 300;
+    }
+
+    .media-2,
+    {
+    height: 200;
+    width: 300;
+}
+
+.media-3 {
+    height: 250;
+    width: 250;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100;
+}
+
+.rel {
+    display: flex;
+    flex-direction:column;
+}
+
+.chef-box {
+    display: flex;
+    flex-direction:column;
+    margin-left:50px;
+    width: 800;
+
+}
 }
 
 /*chef section ends*/
@@ -534,7 +559,7 @@ li {
     margin-top: 12;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:786px) {
 
 
     .about {
@@ -543,12 +568,8 @@ li {
         overflow-y: hidden;
         height: 800;
         justify-content: center;
-        margin-top: 40;
 
-    }
 
-    .abt-img {
-        margin: 0;
     }
 
     .abt-img img {
@@ -609,26 +630,26 @@ summary::marker {
     font-size: 2rem;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:786px) {
     summary {
-        margin-left: 20;
+                margin-left: 20;
         width: 300;
     }
+    }
 
-.detil p {
-    margin-left: 20;
-}
+    .detil p {
+        margin-left: 20;
+    }
 
-.h {
-    margin-top: 10;
-}
+    .h {
+        margin-top: 10;
+    }
 }
 
 /*question section ends*/
 /*app section starts*/
 
 .main-11 {
-    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -642,8 +663,9 @@ summary::marker {
 }
 
 .main-11 .content-11 {
-    margin-left: 40;
     padding: 20px;
+    position: relative;
+    left: 110px;
     margin-top: 450px;
 }
 
@@ -704,21 +726,21 @@ summary::marker {
     margin-top: 400;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:786px) {
 
     .main-11 {
-        overflow-y: hidden;
-         flex-direction: column;
-        height: 800;
+        flex-direction: column;
+        height: 1000;
         justify-content: center;
     }
 
     .img-11 {
         margin-top: 0;
+            padding: 20 20 20 40;
     }
 
     .img-11 img {
-        height: 400;
+       height: 400;
         width: 300;
     }
 
@@ -740,69 +762,60 @@ summary::marker {
 /*app section ends*/
 /*footer section starts*/
 .footer {
-    background-color: rgb(38, 38, 40);
+    background-color:rgb(38, 38, 40);
     color: #b2b2b2;
     padding: 30px 0;
-}
-
-.footer .container {
+  }
+  
+  .footer .container {
     justify-content: space-between;
     align-items: flex-start;
-}
-
-.footer h2 {
+  }
+  
+  .footer h2 {
     font-size: 22px;
     margin-bottom: 10px;
     color: #fff;
-}
-
-.footer ul {
+  }
+  
+  .footer ul {
     list-style: none;
     line-height: 30px;
     font-size: 16px;
-}
-
-.footer ul li {
+  }
+  
+  .footer ul li {
     cursor: pointer;
-}
-
-.footer-about {
+  }
+  
+  .footer-about {
     width: 35%;
-}
-
-.copyright {
+  }
+  
+  .copyright {
     text-align: center;
     padding: 20px 0;
     margin-top: 30px;
     border-top: 1px solid #b2b2b2;
-}
+  }
 
-@media screen and (max-width:400px) {
-    .footer {
-        margin-top: 30;
-    }
-
-    .footer-about {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
-
-    .footer .container {
-        padding: 0;
-    }
-
-    .footer-category {
+  @media screen and (max-width:786px) {
+  .footer-about{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .footer .container {
+    padding: 0;
+  }
+    .footer-category{
         display: none;
     }
-
-    .quick-links {
+    .quick-links{
         display: none;
     }
-
-    .get-in-touch {
+    .get-in-touch{
         display: none;
     }
-}
-
+  }
 /*footer section ends*/
