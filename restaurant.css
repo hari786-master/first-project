@@ -499,7 +499,7 @@ li {
 .abt-img {
     display:flex;
     justify-content:center;
-    margin-right: 50px;
+    padding: 30px;
 }
 
 .contents {
