@@ -472,7 +472,7 @@ li {
 
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:1000px) {
 
 
     .chef-hed {display:none;
@@ -501,10 +501,12 @@ li {
 }
 
 .contents {
+   display: flex;
     width: 700px;
-    margin-top: 200;
-    margin-left: 50;
+    margin-top: 0;
     padding: 40;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .lit {
