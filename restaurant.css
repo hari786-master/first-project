@@ -220,7 +220,7 @@ a {
 
 .main {
     display: flex;
-    flex-wrap: wrap;
+    justify-content:center;
     width: 100%;
     color: #575757;
 }
@@ -236,8 +236,6 @@ a {
 
 .main .content {
     padding: 20px;
-    position: relative;
-    left: 110px;
     margin-top: 300px;
 }
 
