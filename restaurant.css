@@ -281,7 +281,7 @@ a {
 }
 
 @media screen and (max-width : 786px) {
-    .explore-box{margin:0}
+    .explore-box{margin:0;}
     .container {
         text-align: center;
         display: block;
@@ -322,8 +322,8 @@ a {
     }
 
     .main .content {
-                margin-top: 100;
-        padding: 50;
+        margin-top: 100;
+        padding: 0;
     }
     .content h2 {
         font-size: 32px;
