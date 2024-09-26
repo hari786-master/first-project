@@ -628,7 +628,8 @@ summary::marker {
 }
 
 .main-11 .content-11 {
-      padding: 20px;
+    padding: 20px;
+    margin:0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -685,7 +686,6 @@ summary::marker {
     display: flex;
     text-align: end;
     justify-content: center;
-
 }
 
 @media screen and (max-width:786px) {
@@ -709,8 +709,6 @@ summary::marker {
     .main-11 .content-11 {
         width: 100%;
         margin: 0;
-        position: relative;
-        left: 0;
         padding: 0;
 
     }
