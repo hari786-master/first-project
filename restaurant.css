@@ -569,12 +569,14 @@ li {
     margin-bottom: 50;
 }
 .qu-box{
-    display:flex;
-    flex_direction:column;
-    justify-content:center;
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 summary {
+  display: flex;
     padding: 1em;
     border: 1px solid #b2b2b2;
     margin-bottom: 1em;
@@ -582,15 +584,9 @@ summary {
     outline: none;
     border-radius: 0.3em;
     font-weight: 600;
-    width: 800;
-    margin-left: 350;
+    width: 500;
+    justify-content: center;
 }
-
-.detil p {
-    margin-left: 350;
-}
-
-
 details summary {
     margin-top: 10;
 }
