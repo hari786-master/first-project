@@ -536,11 +536,9 @@ li {
         height: 800;
         margin-top:0;
         justify-content: center;
-
-
     }
 
-    .abt-img img {
+    .img img {
         align-items: center;
         margin-top: 20;
         height: 350;
@@ -616,23 +614,25 @@ summary::marker {
 
 /*question section ends*/
 /*app section starts*/
-
-.main-11 {
-   display: flex;
+.main-11{
+    margin-top: 100;
+    display: flex;
     width: 100%;
     color: #575757;
 }
-
 .img-11 {
+       display: flex;
     width: 100%;
-    margin-top: 140px;
     padding: 30px;
+    justify-content: center;
 }
 
 .main-11 .content-11 {
-    padding: 20px;
+      padding: 20px;
     width: 100%;
-    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .para-11 {
