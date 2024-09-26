@@ -749,6 +749,7 @@ summary::marker {
   }
   
   .footer h2 {
+    text-align:center;
     font-size: 22px;
     margin-bottom: 10px;
     color: #fff;
