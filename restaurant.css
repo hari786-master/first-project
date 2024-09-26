@@ -568,6 +568,11 @@ li {
     text-align: center;
     margin-bottom: 50;
 }
+.qu-box{
+    display:flex;
+    flex_direction:column;
+    justify-content:center;
+}
 
 summary {
     padding: 1em;
@@ -592,7 +597,6 @@ details summary {
 
 summary::marker {
     content: '';
-
     font-size: 2rem;
 }
 
