@@ -692,13 +692,14 @@ summary::marker {
 
     .main-11 {
         flex-direction: column;
-        height: 1000;
         justify-content: center;
     }
 
     .img-11 {
+      width: 100%;
         margin-top: 0;
-            padding: 20 20 20 40;
+        align-items: center;
+        padding: 0;
     }
 
     .img-11 img {
