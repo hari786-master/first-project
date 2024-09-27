@@ -178,6 +178,7 @@ a {
 .container {
     width: 100%;
    flex-wrap:wrap;
+    justify-content:space-between;
     display: flex;
     transition-duration: 5s;
     margin-top: 40px;
@@ -189,6 +190,7 @@ a {
     box-shadow: #000;
     border: 1px solid;
     width: 350px;
+    margin-top:30px;
     border-radius: 10px;
 
 }
