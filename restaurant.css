@@ -685,6 +685,7 @@ summary::marker {
 }
 
 .dis {
+    margin-bottom:100;
     display: flex;
     text-align: end;
     justify-content: center;
