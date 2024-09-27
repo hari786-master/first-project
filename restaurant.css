@@ -177,7 +177,7 @@ a {
 
 .container {
     width: 100%;
-    justify-content: space-around;
+   flex-wrap:wrap;
     display: flex;
     transition-duration: 5s;
     margin-top: 40px;
@@ -283,10 +283,11 @@ a {
 @media screen and (max-width : 786px) {
     .explore-box{margin:0;}
     .container {
-        text-align: center;
-        display: block;
-        margin-top: 0;
+                text-align: center;
         padding: 8;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .menu h1 {
